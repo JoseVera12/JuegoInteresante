@@ -1,0 +1,70 @@
+.contenedorTexto{
+    display: flex;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: rgb(23, 23, 67);
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+.contador1{
+    display: flex;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: rgb(23, 23, 67);
+    border: 1px solid white;
+    margin-bottom: 10px
+}
+.contador2{
+    display: flex;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: rgb(23, 23, 67);
+    border: 1px solid white;
+    margin-bottom: 10px
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 0px;
+    background-image: url("https://www.todofondos.net/wp-content/uploads/Fondo-de-Pantalla-3840x2160-ESPACIO-PROFUNDO-OSCURO-4K.-Fondo-de-Pantalla-4k-Gratis-scaled.jpg");
+    background-size: cover;
+    flex-direction: column;
+}
+main{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 48px;
+    height: 48px;
+    border: 1px solid white;
+}
+.texto{
+    font-family: monospace;
+    color: white;
+}
+
+
+.objetivo{
+    background-color: green;
+}
+.actual{
+    background-color: orange;
+}
+.actual2{
+    background-color: darkmagenta;
+}
